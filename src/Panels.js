@@ -1,19 +1,16 @@
 function Panels() {
 	return (
-		<ul>
-			<li>
+		<ul className='panel'>
+			<li data-index='0' className='on'>
 				<div className='bg'></div>
 			</li>
-			<li>
+			<li data-index='1'>
 				<div className='bg'></div>
 			</li>
-			<li>
+			<li data-index='2'>
 				<div className='bg'></div>
 			</li>
-			<li>
-				<div className='bg'></div>
-			</li>
-			<li>
+			<li data-index='3'>
 				<div className='bg'></div>
 			</li>
 		</ul>
