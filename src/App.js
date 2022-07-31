@@ -1,4 +1,4 @@
-import '../scss/style.scss';
+import './scss/style.scss';
 import Btns from './Btns';
 import Panels from './Panels';
 
@@ -7,7 +7,7 @@ function App() {
 		<main>
 			<h1>TYPOGRAPHY</h1>
 			<Btns />
-			<Panles />
+			<Panels />
 		</main>
 	);
 }
